@@ -22,7 +22,7 @@ shinyUI(fluidPage(
                                             "Gloucester-South Nepean"="Gloucester-South Nepean","Kanata-South"="Kanata-South")),
 #                 actionButton("update", "Change"),
 #                 hr(),
-                 sliderInput("freq","Minimum Frequency:", min = 0,  max = 1000, value = 200),
+                 sliderInput("freq","Minimum Occupation Frequency:", min = 0,  max = 1000, value = 200),
                  sliderInput("max","Maximum Number of Occupations:", min = 1,  max = 50,  value = 20)
     ),
     # Show Word Cloud

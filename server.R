@@ -3,7 +3,6 @@ library(shinyIncubator)
 
 
 shinyServer(function(input, output) {
-    # Define a reactive expression for the document term matrix
     terms <- reactive({
                 getOccupations(input$selection)
             })
